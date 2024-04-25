@@ -2,7 +2,7 @@
 *::before,
 *::after{
     margin: 0;
-    padding: 15px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -19,6 +19,7 @@ body{
     color: var(--awesome);
     text-align: center;
 }
+
 h1{
     font-size: 45px;
 }
@@ -33,6 +34,8 @@ button{
     background-color: brown;
     margin-inline: auto;
     border-radius: 30px;
-    
 }
 
+P{
+    font-size: 10px;
+}
