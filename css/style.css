@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: white;
+    --secondary: rgb(195, 35, 35, 0.69);
+    --alternative: brown;
+    --awesome: beige;
+    --borderColor: black;
+}
+
+body{
+    background-color: var(--primary);
+    color: var(--awesome);
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+}
+
+button{
+    width: 50px;
+    border-radius: 8px;
+    background-color: var(--awesome);
+}
+
+.shell{width: fit-content;
+    background-color: brown;
+    margin-inline: auto;
+    border-radius: 30px;
+    
+}
+
