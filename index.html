@@ -11,9 +11,9 @@
 
         <h2>Standard Calculator</h2>
         
-    <input type="text" name="display">
+    <input type="text" name="display" readonly placeholder="0" data-entry>
 
-    <form>
+    <!-- <form> -->
         <div class="firstrow">
             <button class="button 1">C</button>
             <button class="button 2">%</button>
@@ -21,31 +21,32 @@
             <button class="button 4">÷</button> 
         </div>
         <div class="firstrow">
-            <button class="button 1">7</button>
-            <button class="button 2">8</button>
-            <button class="button 3">9</button>
-            <button class="button 4">-</button> 
+            <button class="button 1" onclick="display('7')">7</button>
+            <button class="button 2" onclick="display('8')">8</button>
+            <button class="button 3" onclick="display('9')">9</button>
+            <button class="button 4" data-operator>-</button> 
         </div>
         <div id="second row">
-            <button class="button 1">4</button>
-            <button class="button 2">5</button>
-            <button class="button 3">6</button>
-            <button class="button 4">×</button>
+            <button class="button 1" onclick="display('4')">4</button>
+            <button class="button 2" onclick="display('5')">5</button>
+            <button class="button 3" onclick="display('6')">6</button>
+            <button class="button 4" data-operator>×</button>
         </div>
         <div id="third row">
-            <button class="button 1">1</button>
-            <button class="button 2">2</button>
-            <button class="button 3">3</button>
-            <button class="button 4">+</button>
+            <button class="button 1" onclick="display('1')">1</button>
+            <button class="button 2" onclick="display('2')">2</button>
+            <button class="button 3" onclick="display('3')">3</button>
+            <button class="button 4" data-operator>+</button>
         </div>
         <div id="forth row">
             <button class="button 1">+/-</button>
-            <button class="button 2">0</button>
-            <button class="button 3">.</button>
-            <button class="button 4">=</button>
+            <button class="button 2" onclick="display('0')">0</button>
+            <button class="button 3" onclick="display('.')">.</button>
+            <button class="button 4" data-operator>=</button>
         </div>
         <p>E.C.W</p>
-    </form>
+    <!-- </form> -->
     </div>
+    <script src="./script/code.js"></script>
 </body>
 </html>
