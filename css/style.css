@@ -27,9 +27,11 @@ h1{
 button{
     width: 50px;
     border-radius: 8px;
-    background-color: var(--awesome);
+    background-color: var(--primary);
 }
-
+button:hover{
+    background-color: var(--secondary);
+  }
 .shell{width: fit-content;
     background-color: brown;
     margin-inline: auto;
